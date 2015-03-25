@@ -2,7 +2,6 @@ import sqlite3 as lite
 
 DATABASE="mqttbot.db"
 
-
 con = lite.connect(DATABASE)
 con.execute('''CREATE TABLE Subscriptions
        (ID INT PRIMARY KEY     NOT NULL,
